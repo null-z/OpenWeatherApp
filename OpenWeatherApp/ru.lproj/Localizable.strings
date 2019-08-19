@@ -1,0 +1,38 @@
+/* 
+  Localizable.strings
+  OpenWeatherApp
+
+  Created by Admin on 12/08/2019.
+  Copyright © 2019 NZ. All rights reserved.
+*/
+
+"City" = "Город";
+"Current location" = "Текущее местоположение";
+"Data provided by" = "Данные предоставлены";
+
+//Измерения
+"Wind" = "Ветер";
+"Humidity" = "Влажность";
+"Pressure" = "Давление";
+
+//Направление ветра
+"N" = "С";
+"NE" = "СВ";
+"E" = "В";
+"SE" = "ЮВ";
+"S" = "Ю";
+"SW" = "ЮЗ";
+"W" = "З";
+"NW" = "СЗ";
+
+//Errors
+"Data procassing error" = "Ошибка обработки данных";
+"Connection error" = "Ошибка соединения";
+"No network connection" = "Нет соединения с сетью";
+"Acces to current location is restricted" = "Доступ к текущему местоположению запрещен";
+
+//Settings alert
+"Need location" = "Необходимо местоположение";
+"You can go to settings to allow access" = "Вы можете перейти в настройки для разрешения доступа";
+"Settings" = "Настройки";
+"Cancel" = "Отмена";

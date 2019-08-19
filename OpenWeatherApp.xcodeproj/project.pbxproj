@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		10B45C8F5B7A0B936A604839 /* Pods_OpenWeatherApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D33C99D416D98233701C7738 /* Pods_OpenWeatherApp.framework */; };
 		840105C8230AD53300CEBE48 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 840105CA230AD53300CEBE48 /* InfoPlist.strings */; };
+		84016965230B14820052E82C /* Main.png in Resources */ = {isa = PBXBuildFile; fileRef = 84016961230B14810052E82C /* Main.png */; };
+		84016966230B14820052E82C /* Main-largeTitle.png in Resources */ = {isa = PBXBuildFile; fileRef = 84016962230B14810052E82C /* Main-largeTitle.png */; };
+		84016967230B14820052E82C /* Find.png in Resources */ = {isa = PBXBuildFile; fileRef = 84016963230B14810052E82C /* Find.png */; };
+		84016968230B14820052E82C /* Daily.png in Resources */ = {isa = PBXBuildFile; fileRef = 84016964230B14820052E82C /* Daily.png */; };
 		8401F6CE2304BBE5005C5364 /* WeatherSourceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8401F6CD2304BBE5005C5364 /* WeatherSourceTests.swift */; };
 		8401F6D02304C8A1005C5364 /* WeatherSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8401F6CF2304C8A1005C5364 /* WeatherSource.swift */; };
 		8401F6D82305C846005C5364 /* FullWeatherRequester.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8401F6D72305C846005C5364 /* FullWeatherRequester.swift */; };
@@ -119,6 +123,10 @@
 		0825165C93F95B301C1C9676 /* Pods_OpenWeatherAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OpenWeatherAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		840105C9230AD53300CEBE48 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		840105CB230AD53400CEBE48 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		84016961230B14810052E82C /* Main.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Main.png; sourceTree = "<group>"; };
+		84016962230B14810052E82C /* Main-largeTitle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Main-largeTitle.png"; sourceTree = "<group>"; };
+		84016963230B14810052E82C /* Find.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Find.png; sourceTree = "<group>"; };
+		84016964230B14820052E82C /* Daily.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Daily.png; sourceTree = "<group>"; };
 		8401F6CD2304BBE5005C5364 /* WeatherSourceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherSourceTests.swift; sourceTree = "<group>"; };
 		8401F6CF2304C8A1005C5364 /* WeatherSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherSource.swift; sourceTree = "<group>"; };
 		8401F6D72305C846005C5364 /* FullWeatherRequester.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullWeatherRequester.swift; sourceTree = "<group>"; tabWidth = 4; };
@@ -247,6 +255,17 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		84016960230B143A0052E82C /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				84016964230B14820052E82C /* Daily.png */,
+				84016963230B14810052E82C /* Find.png */,
+				84016962230B14810052E82C /* Main-largeTitle.png */,
+				84016961230B14810052E82C /* Main.png */,
+			);
+			path = Screenshots;
+			sourceTree = "<group>";
+		};
 		8401F6DA23062C02005C5364 /* SimulatedLocations */ = {
 			isa = PBXGroup;
 			children = (
@@ -356,6 +375,7 @@
 				84403AE12308DB5200B91AFD /* .swiftlint.yml */,
 				844015AC22F9B1770078202A /* Podfile */,
 				8440157D22F9B1600078202A /* OpenWeatherApp */,
+				84016960230B143A0052E82C /* Screenshots */,
 				8401F6DA23062C02005C5364 /* SimulatedLocations */,
 				8440159222F9B1610078202A /* OpenWeatherAppTests */,
 				8440159D22F9B1610078202A /* OpenWeatherAppUITests */,
@@ -723,6 +743,8 @@
 				8404E5DD23083AAE000EBB97 /* OpenWeatherLinkCell.xib in Resources */,
 				8480C6BB22FEA4BE00F475A7 /* CurrentWeatherCell.xib in Resources */,
 				84F0C66F2300733E0082A26A /* HourlyForecastCell.xib in Resources */,
+				84016968230B14820052E82C /* Daily.png in Resources */,
+				84016966230B14820052E82C /* Main-largeTitle.png in Resources */,
 				8440158922F9B1610078202A /* LaunchScreen.storyboard in Resources */,
 				8482838823033019002E7861 /* CityCell.xib in Resources */,
 				8440158622F9B1610078202A /* Assets.xcassets in Resources */,
@@ -730,6 +752,8 @@
 				848283742301F1CB002E7861 /* Localizable.strings in Resources */,
 				84EE6978230022AA00A8F6A7 /* DailyForecastCell.xib in Resources */,
 				8401F6DE230632B3005C5364 /* Village.gpx in Resources */,
+				84016965230B14820052E82C /* Main.png in Resources */,
+				84016967230B14820052E82C /* Find.png in Resources */,
 				8401F6DC230630E0005C5364 /* Field.gpx in Resources */,
 				8440158422F9B1600078202A /* Main.storyboard in Resources */,
 			);
